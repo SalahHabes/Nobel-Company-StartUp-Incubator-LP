@@ -10,6 +10,8 @@
 
     <div class="right-image-decor"></div>
 
-    @include('partials._Testimonials')
+    @include('partials._testimonials')
+
+    @include('partials._contactForm')
 
 </x-layout>
