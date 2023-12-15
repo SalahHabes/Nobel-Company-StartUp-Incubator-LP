@@ -19,7 +19,7 @@
 
         <link rel="stylesheet" href="/css/owl-carousel.css">
 
-        <link rel="stylesheet" href="/css/templatemo-lava.css">
+        <link rel="stylesheet" href="/css/style.css">
 
     </head>
 
