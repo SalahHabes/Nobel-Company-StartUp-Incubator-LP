@@ -43,9 +43,13 @@
                     <div class="col-12">
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
-                            <a href="index.html" class="logo">
-                                Nobel Company
-                            </a>
+                            <div class="logosection" >
+                                <a href="index.html" class="logosvg"></a>
+                                <a href="index.html" class="logo">
+                                    Nobel Company
+                                </a>
+                            </div>
+                            
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">
@@ -162,6 +166,5 @@
 
         <!-- Global Init -->
         <script src="/js/custom.js"></script>
-
     </body>
 </html>
