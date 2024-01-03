@@ -1,3 +1,7 @@
+# --- to run the project ---
+# php artisan serve
+# npm run watch
+
 /node_modules
 /public/hot
 /public/storage
