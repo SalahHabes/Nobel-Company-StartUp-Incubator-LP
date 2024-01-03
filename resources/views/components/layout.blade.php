@@ -44,12 +44,11 @@
                         <nav class="main-nav">
                             <!-- ***** Logo Start ***** -->
                             <div class="logosection" >
-                                <a href="index.html" class="logosvg"></a>
-                                <a href="index.html" class="logo">
+                                <img src="{{ URL::asset("images/logo.svg") }}" alt="logo" class="logo">
+                                <a href="index.html" class="logoname">
                                     Nobel Company
                                 </a>
                             </div>
-                            
                             <!-- ***** Logo End ***** -->
                             <!-- ***** Menu Start ***** -->
                             <ul class="nav">

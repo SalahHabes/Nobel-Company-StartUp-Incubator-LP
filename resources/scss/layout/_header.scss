@@ -14,7 +14,7 @@ header
     box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
   }
   
-  .background-header .logo,
+  .background-header .logoname,
   .background-header .main-nav .nav li a {
     color: #1e1e1e!important;
   }
@@ -45,7 +45,7 @@ header
     background: transparent;
   }
   
-  .header-area .main-nav .logo {
+  .header-area .main-nav .logoname {
     line-height: 80px;
     color: #191a20;
     font-size: 28px;
@@ -321,7 +321,7 @@ header
   }
   
   @media (max-width: 991px) {
-    .logo {
+    .logoname {
       text-align: center;
       float: none!important;
     }
@@ -335,7 +335,7 @@ header
     .header-area .container {
       padding: 0px;
     }
-    .header-area .logo {
+    .header-area .logoname {
       margin-left: 30px;
     }
     .header-area .menu-trigger {
@@ -415,5 +415,23 @@ header
       display: flex !important;
     }
   }
+
+.main-nav {
+  display: flex;
+}
+
+.nav {
+  margin: 0!important;
+}
   
-  
+.logosection {
+  display: flex;
+}
+
+.logo {
+  height: 4.5rem;
+}
+
+.logoname {
+  margin-left: 0.5rem;
+}
